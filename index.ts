@@ -86,7 +86,7 @@ async function shrinkOne(file: File, limit: number): Promise<File> {
 export default definePlugin({
     name: "VcShrink",
     description: "Shrinks videos, gifs, images and audio over Discord's upload limit with ffmpeg before they're attached",
-    authors: [{ name: "HefKer", id: 0n }],
+    authors: [{ name: "hefker", id: 334442905567756288n }],
     settings,
 
     patches: [
